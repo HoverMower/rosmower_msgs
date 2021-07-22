@@ -1,0 +1,9 @@
+   int16 left_mag
+   int16 right_mag
+   int16 left_smag
+   int16 right_smag
+   bool left_inside
+   bool right_inside
+   bool left_timeout
+   bool right_timeout
+   bool calibrated
