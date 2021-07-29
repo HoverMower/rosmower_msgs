@@ -51,6 +51,7 @@ message_generation
  add_message_files(
    FILES
    PerimeterMsg.msg
+   Bumper.msg
  )
 
 ## Generate services in the 'srv' folder
