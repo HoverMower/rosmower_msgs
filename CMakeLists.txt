@@ -52,6 +52,8 @@ message_generation
    FILES
    PerimeterMsg.msg
    Bumper.msg
+   Battery.msg
+   MowMotor.msg
  )
 
 ## Generate services in the 'srv' folder
