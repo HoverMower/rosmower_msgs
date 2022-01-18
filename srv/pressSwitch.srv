@@ -1,0 +1,6 @@
+uint8 SWITCH1 = 1
+uint8 SWITCH2 = 2
+uint8 SWITCH3 = 3
+
+uint8 switch_id
+---

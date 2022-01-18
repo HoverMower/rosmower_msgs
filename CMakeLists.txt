@@ -62,6 +62,7 @@ message_generation
    setMowMotor.srv
    doCalibration.srv
    setSwitch.srv
+   pressSwitch.srv
  )
 
 ## Generate actions in the 'action' folder
