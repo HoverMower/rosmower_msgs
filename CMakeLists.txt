@@ -54,6 +54,7 @@ message_generation
    Bumper.msg
    Battery.msg
    MowMotor.msg
+   Switches.msg
  )
 
 ## Generate services in the 'srv' folder
