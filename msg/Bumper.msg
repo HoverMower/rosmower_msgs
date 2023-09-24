@@ -1,2 +1,2 @@
-   bool left
-   bool right
+bool left
+bool right
