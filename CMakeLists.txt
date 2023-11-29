@@ -16,8 +16,6 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
    "msg/Perimeter.msg"
-   "msg/Bumper.msg"
-   "msg/Battery.msg"
    "msg/MowMotor.msg"
    "msg/Switches.msg"
    "srv/SetMowMotor.srv"
