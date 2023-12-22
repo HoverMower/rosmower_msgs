@@ -11,7 +11,6 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
-find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -22,8 +21,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
    "srv/Calibration.srv"
    "srv/SetSwitch.srv"
    "srv/PressSwitch.srv"
-   DEPENDENCIES
-   std_msgs 
  )
 
 
